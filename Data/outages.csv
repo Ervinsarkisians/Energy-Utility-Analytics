@@ -1,0 +1,51 @@
+outage_id,start_time,end_time,affected_area,customers_affected,cause
+1,3/29/2022 23:55,8/17/2021 19:35,South Elaine,391,Weather
+2,11/3/2021 2:32,10/27/2022 19:27,Frazierberg,55,Unknown
+3,9/25/2021 8:28,6/5/2022 13:43,West John,58,Weather
+4,9/4/2023 23:32,6/14/2023 1:31,Carolineside,274,Weather
+5,2/18/2024 14:46,12/25/2022 4:05,East Edward,294,Unknown
+6,10/29/2021 4:36,1/25/2022 5:04,Davidberg,257,Weather
+7,2/26/2022 14:34,8/29/2023 9:31,North Justin,860,Weather
+8,7/15/2024 20:45,2/24/2021 23:39,Erikamouth,708,Equipment Failure
+9,2/15/2022 23:37,1/2/2023 10:48,New Joshuaport,209,Unknown
+10,3/6/2022 10:34,6/3/2023 10:16,Cruzburgh,34,Equipment Failure
+11,8/20/2023 18:46,7/10/2024 16:36,South Cynthialand,834,Equipment Failure
+12,4/10/2021 7:39,10/4/2022 2:20,West Andrew,105,Unknown
+13,10/20/2024 4:47,2/5/2022 21:27,West Mollyland,889,Unknown
+14,1/11/2022 14:58,4/17/2021 4:49,North Michael,758,Unknown
+15,10/5/2023 18:56,5/27/2022 13:30,Williamtown,886,Weather
+16,9/20/2022 12:50,10/16/2024 13:03,Port Charlene,761,Unknown
+17,12/26/2024 12:59,12/1/2024 20:55,East Jennifermouth,575,Equipment Failure
+18,10/29/2022 6:46,3/10/2024 9:19,Sanchezstad,244,Unknown
+19,1/29/2023 17:30,9/11/2022 6:41,East Scott,804,Unknown
+20,10/15/2022 6:51,4/11/2024 20:43,Ruizland,295,Unknown
+21,12/23/2023 6:22,3/12/2022 14:52,Port Pamela,681,Weather
+22,5/22/2024 7:06,10/27/2023 2:46,Sandychester,949,Equipment Failure
+23,5/16/2023 17:33,3/27/2022 11:45,Nicholsshire,397,Equipment Failure
+24,8/13/2021 12:38,2/10/2022 13:36,Lake Cindyfort,980,Unknown
+25,4/4/2022 9:57,9/3/2022 4:13,South John,321,Unknown
+26,1/9/2024 17:52,10/16/2021 16:17,Georgeside,56,Weather
+27,3/5/2022 14:33,6/22/2024 3:26,Kingmouth,762,Equipment Failure
+28,3/8/2023 16:52,5/29/2024 9:43,Nguyenside,208,Unknown
+29,11/4/2021 3:52,5/17/2023 23:03,South Deniseland,890,Equipment Failure
+30,7/1/2021 14:34,9/28/2023 9:19,New Sean,850,Weather
+31,3/2/2023 12:41,11/19/2021 20:52,South Holly,934,Unknown
+32,1/15/2023 18:55,2/22/2023 2:14,Keithview,722,Unknown
+33,7/11/2023 13:01,8/10/2022 17:42,New Joshua,664,Equipment Failure
+34,11/6/2023 15:59,11/22/2023 3:46,South John,774,Unknown
+35,11/11/2023 17:21,2/6/2021 12:24,Delgadohaven,560,Unknown
+36,3/11/2022 5:15,3/19/2021 18:04,Port Craigbury,618,Weather
+37,10/17/2024 12:52,7/5/2024 9:41,East Ronaldport,795,Unknown
+38,7/12/2023 22:01,12/26/2023 8:04,West Tiffany,988,Weather
+39,2/27/2022 2:22,8/11/2023 23:26,Austinborough,302,Equipment Failure
+40,11/7/2021 6:57,5/31/2023 8:40,Lake Stephanieville,182,Unknown
+41,9/2/2024 2:49,4/19/2023 0:39,East Carmenport,77,Weather
+42,3/9/2024 21:04,1/24/2023 19:06,New Cameronmouth,986,Weather
+43,9/11/2021 13:56,12/6/2021 15:50,New Martin,753,Unknown
+44,8/24/2021 5:51,9/2/2023 14:40,Lake Oliviatown,123,Equipment Failure
+45,6/28/2024 11:34,6/5/2022 10:37,Kristyborough,42,Equipment Failure
+46,12/3/2024 6:42,5/12/2023 23:56,East Angelachester,286,Unknown
+47,9/3/2022 3:26,11/22/2022 20:07,South John,271,Weather
+48,3/13/2021 11:06,4/21/2022 10:22,Lewisshire,165,Unknown
+49,11/16/2024 21:19,4/30/2023 9:31,West Anthonyshire,867,Equipment Failure
+50,2/3/2022 3:38,8/4/2022 15:41,West Kennethstad,6,Equipment Failure

@@ -1,0 +1,101 @@
+asset_id,asset_type,location,install_date,status
+1,Transformer,Port Darrylport,1/15/2021,Decommissioned
+2,Transformer,Lake John,12/30/2023,Maintenance
+3,Substation,Robinsonstad,8/28/2024,Decommissioned
+4,Pole,Shawport,4/29/2021,Decommissioned
+5,Pole,South Tiffanyland,5/18/2021,Maintenance
+6,Transformer,Tiffanyville,2/26/2024,Decommissioned
+7,Transformer,Port Colleenhaven,9/18/2022,Decommissioned
+8,Pole,Christopherview,2/6/2023,Operational
+9,Line,Hollyland,1/22/2022,Decommissioned
+10,Line,South John,9/8/2022,Decommissioned
+11,Line,North Anthonymouth,12/9/2024,Maintenance
+12,Substation,North Paul,1/11/2023,Maintenance
+13,Substation,Copelandstad,3/31/2024,Maintenance
+14,Transformer,Autumnmouth,7/2/2024,Maintenance
+15,Line,New John,1/23/2022,Decommissioned
+16,Substation,Adamsmouth,11/19/2021,Decommissioned
+17,Pole,Davidport,9/16/2021,Operational
+18,Line,Port Nicholas,5/20/2021,Decommissioned
+19,Line,South Briana,9/23/2022,Maintenance
+20,Pole,Lake Amber,8/11/2023,Maintenance
+21,Pole,South Amber,2/14/2023,Maintenance
+22,Line,East Charlesview,6/19/2023,Decommissioned
+23,Line,North Deannaberg,8/21/2024,Maintenance
+24,Line,West John,10/3/2023,Decommissioned
+25,Line,New Cindy,2/15/2023,Operational
+26,Transformer,North Rebeccashire,6/30/2021,Decommissioned
+27,Transformer,Warrenfort,12/18/2021,Operational
+28,Substation,Amandahaven,11/18/2024,Decommissioned
+29,Line,Johnburgh,8/28/2021,Decommissioned
+30,Transformer,Ramirezshire,2/29/2024,Decommissioned
+31,Pole,Billytown,4/10/2021,Decommissioned
+32,Substation,New Thomas,8/27/2021,Maintenance
+33,Line,Port David,3/9/2023,Maintenance
+34,Substation,Tinaton,3/29/2022,Maintenance
+35,Pole,North Logan,2/25/2024,Decommissioned
+36,Transformer,New Robertshire,6/5/2024,Maintenance
+37,Transformer,West Christina,8/12/2024,Decommissioned
+38,Substation,New Anthony,8/30/2024,Decommissioned
+39,Line,Lake Victor,12/22/2022,Decommissioned
+40,Line,Kingview,4/15/2022,Operational
+41,Transformer,Carltown,2/28/2024,Maintenance
+42,Pole,New Angela,11/24/2021,Maintenance
+43,Transformer,South Josephport,5/24/2023,Decommissioned
+44,Line,Joshuamouth,11/1/2021,Decommissioned
+45,Transformer,West Joseph,1/21/2023,Decommissioned
+46,Line,Hallbury,11/26/2022,Decommissioned
+47,Pole,Port Hollyberg,8/18/2024,Operational
+48,Line,New Leslie,10/30/2024,Operational
+49,Line,East Christopher,12/13/2023,Maintenance
+50,Line,West Joannaview,5/17/2021,Maintenance
+51,Line,West Karen,7/1/2021,Decommissioned
+52,Line,Beanton,10/8/2023,Maintenance
+53,Pole,Shawnberg,1/15/2024,Maintenance
+54,Pole,Lisaside,4/19/2024,Decommissioned
+55,Pole,North Andrew,8/28/2024,Maintenance
+56,Transformer,New Jameschester,12/10/2023,Decommissioned
+57,Pole,Sharonfort,10/24/2024,Decommissioned
+58,Substation,South Daniel,4/10/2022,Decommissioned
+59,Line,New Williamville,11/4/2021,Maintenance
+60,Pole,South Bradley,11/7/2021,Operational
+61,Transformer,Ricardoland,2/21/2024,Operational
+62,Line,Lake Brittanyland,4/4/2024,Maintenance
+63,Substation,Robersonburgh,4/14/2024,Operational
+64,Line,Port Michelle,4/7/2022,Decommissioned
+65,Transformer,West John,3/27/2022,Operational
+66,Substation,Hamptonfort,7/10/2021,Maintenance
+67,Transformer,Reneebury,5/3/2024,Maintenance
+68,Pole,South Andrewview,6/22/2022,Operational
+69,Substation,South Christopher,7/21/2022,Maintenance
+70,Transformer,West Willie,8/28/2022,Operational
+71,Transformer,New Travis,6/9/2024,Maintenance
+72,Pole,West Sarah,3/4/2024,Operational
+73,Substation,East Sharibury,8/1/2023,Decommissioned
+74,Substation,Melvinside,4/23/2021,Maintenance
+75,Substation,West Brittany,1/7/2022,Maintenance
+76,Substation,Port Jeffshire,8/18/2021,Operational
+77,Pole,South Jeffreyborough,2/18/2022,Decommissioned
+78,Transformer,Lake Shane,11/2/2022,Decommissioned
+79,Line,East Brooke,4/18/2021,Operational
+80,Line,North Paul,5/19/2024,Decommissioned
+81,Transformer,East Brian,3/14/2022,Operational
+82,Pole,Ericville,3/1/2024,Decommissioned
+83,Transformer,Brownmouth,5/8/2023,Operational
+84,Line,Robertchester,6/10/2023,Maintenance
+85,Transformer,Beverlybury,2/15/2024,Operational
+86,Substation,Leeview,2/22/2023,Decommissioned
+87,Line,West Kenneth,2/28/2023,Operational
+88,Pole,Fischerview,12/29/2023,Operational
+89,Line,East Jon,10/6/2022,Maintenance
+90,Substation,North Michael,5/12/2022,Decommissioned
+91,Line,Welchborough,8/21/2021,Maintenance
+92,Transformer,New Christopher,10/9/2023,Maintenance
+93,Substation,Lake Kenneth,9/12/2024,Maintenance
+94,Transformer,Barneston,5/30/2021,Operational
+95,Substation,North Jonathanstad,5/27/2022,Operational
+96,Transformer,West Pamela,10/28/2022,Operational
+97,Transformer,Beardbury,8/18/2023,Operational
+98,Pole,West Emilyhaven,6/8/2024,Decommissioned
+99,Transformer,Port Holly,6/25/2023,Operational
+100,Line,Catherinemouth,8/16/2022,Decommissioned
