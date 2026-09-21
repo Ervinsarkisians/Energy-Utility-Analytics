@@ -6,19 +6,11 @@
 
 
 
-This project analyzes energy utility operations across
-
-customers, billing, energy consumption, assets,
-
-maintenance activity, and service outages.
+This project analyzes energy utility operations across customers, billing, energy consumption, assets, maintenance activity, and service outages.
 
 
 
-The objective is to transform operational data into
-
-actionable business insights using SQL Server and
-
-Power BI.
+The objective is to transform operational data into actionable business insights using SQL Server and Power BI.
 
 
 
@@ -60,43 +52,41 @@ Power BI.
 
 
 
-\## Data Pipeline
+\---
 
 
+
+\# Data Pipeline
+
+
+
+```text
 
 Raw Data
 
-↓
+&#x20;   ↓
 
 SQL Staging
 
-↓
+&#x20;   ↓
 
 Data Cleaning
 
-↓
+&#x20;   ↓
 
 Transformation
 
-↓
+&#x20;   ↓
 
 Analytics Tables
 
-↓
+&#x20;   ↓
 
 Power BI Data Model
 
-↓
+&#x20;   ↓
 
 Interactive Dashboard
-
-
-
-\## Dashboard
-
-
-
-!\[Executive Overview](Screenshots/01\_Executive\_Overview.png)
 
 
 
@@ -104,7 +94,7 @@ Interactive Dashboard
 
 
 
-!\[Customer Overview](Screenshots/02\_Customer\_Overview.png)
+!\[Customer Overview](Screenshots/01\_Customer\_Overview.png)
 
 
 
@@ -112,7 +102,7 @@ Interactive Dashboard
 
 
 
-!\[Billing \& Payments](Screenshots/03\_Billing\_Payments.png)
+!\[Billing \& Payments](Screenshots/02\_Billing\_Payments.png)
 
 
 
@@ -120,7 +110,7 @@ Interactive Dashboard
 
 
 
-!\[Energy Usage](Screenshots/04\_Energy\_Usage.png)
+!\[Energy Usage](Screenshots/03\_Energy\_Usage.png)
 
 
 
@@ -128,7 +118,7 @@ Interactive Dashboard
 
 
 
-!\[Assets \& Maintenance](Screenshots/05\_Assets\_Maintenance.png)
+!\[Assets \& Maintenance](Screenshots/04\_Assets\_Maintenance.png)
 
 
 
@@ -136,7 +126,7 @@ Interactive Dashboard
 
 
 
-!\[Outages](Screenshots/06\_Outages.png)
+!\[Outages](Screenshots/05\_Outages.png)
 
 
 
