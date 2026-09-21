@@ -1,284 +1,145 @@
-\# Energy Utility Analytics
+# Energy Utility Analytics
 
-
-
-\## Project Overview
-
-
+## Project Overview
 
 This project analyzes energy utility operations across customers, billing, energy consumption, assets, maintenance activity, and service outages.
 
-
-
 The objective is to transform operational data into actionable business insights using SQL Server and Power BI.
 
+## Business Objectives
 
+- Monitor customer activity
+- Analyze billing and payment performance
+- Identify energy consumption trends
+- Evaluate asset maintenance
+- Analyze outage frequency and duration
+- Improve operational visibility
 
-\## Business Objectives
+## Tools & Technologies
 
+- SQL Server
+- T-SQL
+- Power BI
+- DAX
+- Power Query
+- Data Modeling
+- ETL
 
+---
 
-\- Monitor customer activity
-
-\- Analyze billing and payment performance
-
-\- Identify energy consumption trends
-
-\- Evaluate asset maintenance
-
-\- Analyze outage frequency and duration
-
-\- Improve operational visibility
-
-
-
-\## Tools \& Technologies
-
-
-
-\- SQL Server
-
-\- T-SQL
-
-\- Power BI
-
-\- DAX
-
-\- Power Query
-
-\- Data Modeling
-
-\- ETL
-
-
-
-\---
-
-
-
-\# Data Pipeline
-
-
+# Data Pipeline
 
 ```text
 
 Raw Data
-
-&#x20;   ↓
-
+↓
 SQL Staging
-
-&#x20;   ↓
-
+↓
 Data Cleaning
-
-&#x20;   ↓
-
+↓
 Transformation
-
-&#x20;   ↓
-
+↓
 Analytics Tables
-
-&#x20;   ↓
-
+↓
 Power BI Data Model
-
-&#x20;   ↓
-
+↓
 Interactive Dashboard
 
+## Customer Analysis
 
+![Customer Overview](Screenshots/01_Customer_Overview.png)
 
-\## Customer Analysis
+## Billing & Payments
 
+![Billing & Payments](Screenshots/02_Billing_Payments.png)
 
+## Energy Usage
 
-!\[Customer Overview](Screenshots/01\_Customer\_Overview.png)
+![Energy Usage](Screenshots/03_Energy_Usage.png)
 
+## Assets & Maintenance
 
+![Assets & Maintenance](Screenshots/04_Assets_Maintenance.png)
 
-\## Billing \& Payments
+## Outage Analysis
 
+![Outages](Screenshots/05_Outages.png)
 
-
-!\[Billing \& Payments](Screenshots/02\_Billing\_Payments.png)
-
-
-
-\## Energy Usage
-
-
-
-!\[Energy Usage](Screenshots/03\_Energy\_Usage.png)
-
-
-
-\## Assets \& Maintenance
-
-
-
-!\[Assets \& Maintenance](Screenshots/04\_Assets\_Maintenance.png)
-
-
-
-\## Outage Analysis
-
-
-
-!\[Outages](Screenshots/05\_Outages.png)
-
-
-
-\## SQL Analysis
-
-
+## SQL Analysis
 
 The SQL analysis includes:
 
+- Data exploration
+- Data validation
+- Data cleaning
+- Transformations
+- Aggregations
+- KPI calculations
+- Business analysis
 
+## Key Findings
 
-\- Data exploration
+### Customer Overview
 
-\- Data validation
+- 150 customers support 200 utility accounts, indicating that some customers maintain multiple accounts.
+- September recorded the highest account creation volume with 35 accounts, representing 17.5% of the total accounts.
+- Account ownership is concentrated among a small number of customers, with the highest individual customers maintaining up to 9 accounts.
 
-\- Data cleaning
+### Billing & Payments
 
-\- Transformations
+- Total billed amount was $82.08K compared with $81.53K in recorded payments, resulting in approximately 99% payment coverage.
+- The remaining outstanding balance was approximately $554.72.
+- Overdue bills were concentrated in specific months, with September recording the highest count at 21 overdue bills, followed by January with 20.
+- Annual billing volume peaked in 2023 at approximately $23.5K before declining to approximately $19.2K in 2024.
 
-\- Aggregations
+### Energy Usage
 
-\- KPI calculations
+- Total recorded energy consumption was approximately 251.09K kWh.
+- Average recorded daily energy usage was approximately 502.18 kWh.
+- Approximately 45% of recorded usage events were classified as peak usage.
+- Peak usage activity varied across customers, with Kenneth recording the highest number of peak-usage events among the customers displayed.
 
-\- Business analysis
+### Assets & Maintenance
 
+- The infrastructure inventory contains 100 assets and 200 recorded maintenance events, representing approximately two maintenance events per asset.
+- Annual maintenance activity remained relatively stable from 2021 through 2024, ranging from 49 to 51 events per year.
+- Lines and transformers represent the largest asset categories within the infrastructure inventory.
 
+### Outage Analysis
 
-\## Key Findings
+- The dataset contains 50 recorded outages affecting approximately 26K customers.
+- 2023 recorded the highest customer impact, with approximately 8.7K customers affected.
+- 2024 followed with approximately 6.4K affected customers.
+- Weather is a recurring recorded outage cause within the dataset.
 
+## Recommendations
 
+### Customer Management
 
-\### Customer Overview
+- Analyze multi-account customers to better understand account structures and improve customer segmentation.
+- Investigate periods of higher account creation, particularly September, to identify potential drivers of customer growth and align onboarding resources accordingly.
 
+### Billing & Collections
 
+- Prioritize payment follow-up and customer outreach during months with historically higher overdue-bill volumes, particularly January and September.
+- Investigate the decline in annual billed amounts after 2023 by analyzing changes in account activity, energy usage, billing amounts, and customer composition.
 
-\- 150 customers support 200 utility accounts, indicating that some customers maintain multiple accounts.
+### Energy Management
 
-\- September recorded the highest account creation volume with 35 accounts, representing 17.5% of the total accounts.
+- Analyze peak-period consumption by customer, month, and rate plan to identify opportunities for demand-management initiatives.
+- Identify customers with consistently high peak-usage activity for targeted usage-monitoring and energy-efficiency programs.
 
-\- Account ownership is concentrated among a small number of customers, with the highest individual customers maintaining up to 9 accounts.
+### Asset & Maintenance Planning
 
+- Maintain proactive inspection and maintenance schedules for high-volume asset categories, particularly lines and transformers.
+- Combine asset age, maintenance frequency, and maintenance type to identify assets that may require replacement rather than continued repair.
 
+### Outage & Reliability Management
 
-\### Billing \& Payments
+- Strengthen outage preparedness during periods associated with higher historical customer impact, with particular attention to weather-related events.
+- Analyze outage frequency and customer impact together to identify affected areas and events that create the greatest operational impact and should receive additional reliability planning.
 
-
-
-\- Total billed amount was $82.08K compared with $81.53K in recorded payments, resulting in approximately 99% payment coverage.
-
-\- The remaining outstanding balance was approximately $554.72.
-
-\- Overdue bills were concentrated in specific months, with September recording the highest count at 21 overdue bills, followed by January with 20.
-
-\- Annual billing volume peaked in 2023 at approximately $23.5K before declining to approximately $19.2K in 2024.
-
-
-
-\### Energy Usage
-
-
-
-\- Total recorded energy consumption was approximately 251.09K kWh.
-
-\- Average recorded daily energy usage was approximately 502.18 kWh.
-
-\- Approximately 45% of recorded usage events were classified as peak usage.
-
-\- Peak usage activity varied across customers, with Kenneth recording the highest number of peak-usage events among the customers displayed.
-
-
-
-\### Assets \& Maintenance
-
-
-
-\- The infrastructure inventory contains 100 assets and 200 recorded maintenance events, representing approximately two maintenance events per asset.
-
-\- Annual maintenance activity remained relatively stable from 2021 through 2024, ranging from 49 to 51 events per year.
-
-\- Lines and transformers represent the largest asset categories within the infrastructure inventory.
-
-
-
-\### Outage Analysis
-
-
-
-\- The dataset contains 50 recorded outages affecting approximately 26K customers.
-
-\- 2023 recorded the highest customer impact, with approximately 8.7K customers affected.
-
-\- 2024 followed with approximately 6.4K affected customers.
-
-\- Weather is a recurring recorded outage cause within the dataset.
-
-
-
-\## Recommendations
-
-
-
-\### Customer Management
-
-
-
-\- Analyze multi-account customers to better understand account structures and improve customer segmentation.
-
-\- Investigate periods of higher account creation, particularly September, to identify potential drivers of customer growth and align onboarding resources accordingly.
-
-
-
-\### Billing \& Collections
-
-
-
-\- Prioritize payment follow-up and customer outreach during months with historically higher overdue-bill volumes, particularly January and September.
-
-\- Investigate the decline in annual billed amounts after 2023 by analyzing changes in account activity, energy usage, billing amounts, and customer composition.
-
-
-
-\### Energy Management
-
-
-
-\- Analyze peak-period consumption by customer, month, and rate plan to identify opportunities for demand-management initiatives.
-
-\- Identify customers with consistently high peak-usage activity for targeted usage-monitoring and energy-efficiency programs.
-
-
-
-\### Asset \& Maintenance Planning
-
-
-
-\- Maintain proactive inspection and maintenance schedules for high-volume asset categories, particularly lines and transformers.
-
-\- Combine asset age, maintenance frequency, and maintenance type to identify assets that may require replacement rather than continued repair.
-
-
-
-\### Outage \& Reliability Management
-
-
-
-\- Strengthen outage preparedness during periods associated with higher historical customer impact, with particular attention to weather-related events.
-
-\- Analyze outage frequency and customer impact together to identify affected areas and events that create the greatest operational impact and should receive additional reliability planning.
-
-\## Project Structure
-
-
+## Project Structure
 
 SQL/
 
@@ -292,7 +153,7 @@ Documentation/
 
 
 
-\## Skills Demonstrated
+## Skills Demonstrated
 
 
 
