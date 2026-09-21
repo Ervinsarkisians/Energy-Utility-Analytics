@@ -53,7 +53,7 @@ Interactive Dashboard
 
 ### Billing & Payments
 
-![Billing & Payments](Screenshots/02_Billing_Payments.png)
+![Billing & Payments](Screenshots/02_Billing_And_Payments.png)
 
 ### Energy Usage
 
@@ -61,7 +61,7 @@ Interactive Dashboard
 
 ### Assets & Maintenance
 
-![Assets & Maintenance](Screenshots/04_Assets_Maintenance.png)
+![Assets & Maintenance](Screenshots/04_Assets_And_Maintenance.png)
 
 ### Outage Analysis
 
